@@ -1,0 +1,186 @@
+{
+    "default": {
+        "feature_motor_enable": false,
+        "feature_aps_enable": true,
+        "feature_auth_enable": true,
+        "feature_rio_enable": true,
+        "feature_3a_enable": true,
+        "feature_cts_enable": true,
+        "feature_government_enalbe": true,
+        "feature_sound_enable": true,
+        "feature_flash_enable": true,
+        "needlimitSizeForSurface": false,
+        "feature_resolution_enable": true,
+        "feature_fps_enable": true,
+        "feature_evication_enable":  true,
+        "feature_fov_enable": true,
+        "skip_rus_check_list": [
+            "android.camera.cts",
+            "com.android.cts.verifier",
+            "android",
+            "com.oppo.engineermode.camera"
+        ],
+        "disable_camera_shutter_sound_app_list": [
+            "com.facebook.orca",
+            "com.android.contacts",
+            "com.instagram.android",
+            "com.facebook.katana"
+        ],
+        "resolutionFilterForLimitITSSize": [
+            "1920x1080",
+            "1920x1072",
+            "1872x864",
+            "1560x720",
+            "1600x1200",
+            "1600x800",
+            "1440x1080",
+            "1440x1088"
+        ]
+    },
+        "com.tencent.zebra": {
+        "feature_resolution_enable": true,
+        "previewSizeForAPI1Width": 1920,
+        "previewSizeForAPI1Height": 1080
+    },
+    "com.marykay.vmo.my": {
+        "feature_resolution_enable": true,
+        "previewSizeForAPI1Width": 1920,
+        "previewSizeForAPI1Height": 1080
+    },
+    "net.one97.paytm": {
+        "feature_resolution_enable": true,
+        "previewSizeForAPI1Width": 1920,
+        "previewSizeForAPI1Height": 1080
+    },
+    "im.thebot.messenger": {
+        "feature_resolution_enable": true,
+        "previewSizeForAPI1Width": 1920,
+        "previewSizeForAPI1Height": 1080,
+        "thirdPartyAppWidthLimitForCam0API1":1920,
+        "thirdPartyAppHeightLimitForCam0API1":1080,
+        "thirdPartyAppWidthLimitForCam1API1":1920,
+        "thirdPartyAppHeightLimitForCam1API1":1080
+    },
+    "com.alibaba.android.rimet": {
+        "feature_resolution_enable": true,
+        "previewSizeForAPI1Width": 1920,
+        "previewSizeForAPI1Height": 1080
+    },
+    "com.kufeng.hj.enjoy": {
+        "feature_resolution_enable": true,
+        "previewSizeForAPI1Height": 1080
+    },
+    "com.mservice.momotransfer": {
+        "previewSizeForAPI1Width": 1920,
+        "previewSizeForAPI1Height": 1080
+    },
+    "com.wuba.zhuanzhuan":  {
+        "previewSizeForAPI1Width": 1920,
+        "previewSizeForAPI1Height": 1080
+    },
+     "in.mohalla.sharechat":{
+        "thirdPartyAppWidthLimitForCam0API2":1920,
+        "thirdPartyAppHeightLimitForCam0API2":1080,
+        "thirdPartyAppWidthLimitForCam1API2":1920,
+        "thirdPartyAppHeightLimitForCam1API2":1080
+     },
+     "com.meitu.meiyancamera":{
+        "thirdPartyAppWidthLimitForCam0API2":1280,
+        "thirdPartyAppHeightLimitForCam0API2":960
+     },
+    "com.instagram.android": {
+        "checkToAddPreviewCallbackForAPI1": true
+    },
+    "cn.easyar.sightplus": {
+        "checkToAddPreviewCallbackForAPI1": true
+    },
+    "vStudio.Android.Camera360": {
+        "checkToAddPreviewCallbackForAPI1": true
+    },
+    "com.asiainno.uplive": {
+        "checkToAddPreviewCallbackForAPI1": true
+    },
+    "sweet.selfie.lite": {
+        "checkToAddPreviewCallbackForAPI1": true
+    },
+    "com.qiyi.video": {
+        "checkToAddPreviewCallbackForAPI1": true
+    },
+    "com.taobao.taobao": {
+        "checkToAddPreviewCallbackForAPI1": true
+    },
+    "com.netease.cloudmusic": {
+        "checkToAddPreviewCallbackForAPI1": true
+    },
+    "com.xvideostudio.videoeditor": {
+        "checkToAddPreviewCallbackForAPI1": true
+    },
+    "com.dingYZ.dingyzwater": {
+        "checkToAddPreviewCallbackForAPI1": true
+    },
+    "com.whatsapp": {
+        "feature_flash_enable": true
+    },
+    "com.whatsapp.w4b": {
+        "feature_flash_enable": true
+    },
+    "com.facebook.orca": {
+        "app_enable_rio":true,
+        "thirdPartyAppLimitPicture": true,
+        "checkToAddPreviewCallbackForAPI1": true,
+        "resolutionFilterForNotAddSizeAPI1":[
+            "1920x951",
+            "2160x1080"
+        ]
+    },
+    "com.facebook.katana": {
+        "app_enable_rio": true,
+        "thirdPartyAppLimitPicture":true,
+        "thirdPartyAppWidthLimitForCam0API2":3840,
+        "thirdPartyAppHeightLimitForCam0API2":2160,
+        "thirdPartyAppWidthLimitForCam1API2":1920,
+        "thirdPartyAppHeightLimitForCam1API2":1920
+    },
+    "com.snapchat.android": {
+        "feature_flash_enable": true
+    },
+    "com.skype.raider": {
+        "feature_flash_enable": true
+    },
+    "com.mt.mtxx.mtxx": {
+        "app_enable_rio":true,
+        "thirdPartyAppLimitPicture":true,
+        "thirdPartyAppWidthLimitForCam0API2":1280,
+        "thirdPartyAppHeightLimitForCam0API2":960,
+        "thirdPartyAppWidthLimitForCam1API2":1280,
+        "thirdPartyAppHeightLimitForCam1API2":960
+    },
+    "com.imo.android.imoim": {
+        "adjustPreviewFpsForAPI1": true,
+        "needLimitFpsForAPI1": true
+    },
+    "org.codeaurora.ims": {
+        "isFreeDomEvictionPackge": true
+    },
+    "android": {
+        "isFreeDomEvictionPackge": true
+    },
+    "jp.naver.line.android":{
+        "resolutionFilterForNotAddSizeAPI1":[
+            "1280x720"
+        ]
+    },
+    "com.tencent.qqmusic":{
+        "previewSizeForAPI1Width":2280,
+        "previewSizeForAPI1Height":1080,
+        "previewSizeForAPI1Width":2280,
+        "previewSizeForAPI1Height":1080,
+    },
+    "com.twitter.android":{
+        "thirdPartyAppWidthLimitForCam0API1":1920,
+        "thirdPartyAppHeightLimitForCam0API1":1080,
+        "thirdPartyAppWidthLimitForCam1API1":1920,
+        "thirdPartyAppHeightLimitForCam1API1":1080
+    }
+}
+
